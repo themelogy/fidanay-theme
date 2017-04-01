@@ -1,0 +1,16 @@
+
+/* #TAGS
+================================================== */
+.tag-cloud ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+.tag-cloud li {
+  display: inline-block;
+  margin-bottom:3px;
+}
+.tag-cloud a {
+  display: inline-block;
+  text-transform:uppercase;
+}

@@ -1,0 +1,92 @@
+/* #LOGO
+================================================== */
+.logo-container {
+  width: 190px;
+  background-color: $default-theme-color;
+  transition: all .3s ease 0s;
+}
+.logo-container-2 {
+  transition: all .3s ease 0s;
+}
+.logo-container-3 {
+  width: 120px;
+  background-color: #414146;
+  transition: all .3s ease 0s;
+}
+header .logo {
+  display: block;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 9px;
+  transition: all .4s ease 0s;
+  /* height: 120px; */
+
+}
+footer .logo {
+  display: block;
+  padding-bottom: 0;
+  /* padding-right: 15px; */
+  padding-left: 15px;
+  padding-top: 20px;
+  transition: all .4s ease 0s;
+  height: 120px;
+}
+header.affix .logo {
+  background: url(../images/logos/logo-affix-white.png) no-repeat center;
+  padding-top:10px;
+  padding-bottom: 10px;
+  transition: all .4s ease 0s;
+  height: 60px;
+}
+header.affix .logo img {
+  display:none;
+}
+header.affix  .logo-2 {
+  padding-top:18px;
+  padding-bottom:18px;
+  transition: all .4s ease 0s;
+}
+.header-3 .logo {
+  padding-top: 41px;
+}
+header .logo .logo-img {
+  /* height: 120px; */
+  transition: all .4s ease 0s;
+}
+header.affix .logo .logo-img {
+  /* 	height: 60px; */
+  transition: all .4s ease 0s;
+}
+.logo-2 {
+  display: block;
+  padding:35px 15px 36px 0;
+  transition: all .4s ease 0s;
+}
+
+/*==================================================
+ * Effect 8
+ * ===============================================*/
+.effect8
+{
+  position:relative;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.effect8:before, .effect8:after
+{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  box-shadow:0 0 10px rgba(0,0,0,0.25);
+  top:10px;
+  bottom:10px;
+  left:0;
+  right:0;
+  border-radius:90px / 10px;
+}
+.effect8:after
+{
+  right:10px;
+  left:auto;
+  transform:skew(8deg) rotate(3deg);
+}

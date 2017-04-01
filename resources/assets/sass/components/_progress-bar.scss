@@ -1,0 +1,80 @@
+
+/* #PROGRESS BAR
+=================================================*/
+.skill-bar {
+  height: 36px;
+  position: relative;
+  background: #f6f6f6;
+  margin: 0 0 5px 0;
+}
+.skill-bar-content[data-percentage] { text-indent: -9999px; }
+.skill-bar-content {
+  background: $default-theme-color;
+  height: 36px;
+  width: 0%;
+}
+.skill-bar .skill-title {
+  color: #414146;
+  top: 10px;
+  left: 15px;
+  position: absolute;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size:14px;
+}
+.skill-bar .percentage {
+  color: #666;
+  position: absolute;
+  top: 9px;
+  left: 90%;
+  background-color:#0C0;
+}
+
+/***** #SKILL BAR ANIMATED ******/
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:10px;
+  width:100%;
+  background:#eee;
+  height:40px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+  color:#4b4e53;
+}
+.skillbar-title span {
+  display:block;
+  padding:0 15px;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-size:14px;
+  height:40px;
+  line-height:40px;
+}
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:$default-theme-color;
+}
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  height:40px;
+  line-height:40px;
+  color:rgba(0, 0, 0, 0.6);
+}
+.audio-box audio{
+  width:100%;
+}

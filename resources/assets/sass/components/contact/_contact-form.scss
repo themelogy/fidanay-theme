@@ -1,0 +1,98 @@
+/* #CONTACT FORM
+=====================================================*/
+.contact-form-container {
+  position: relative;
+  margin:0 40px 0 0;
+  padding-top:70px;
+  padding-bottom:40px;
+}
+.contact-form-container-left {
+  position: relative;
+  margin:0 0 0 40px;
+  padding-top:70px;
+  padding-bottom:40px;
+}
+.gray-bg-container {
+  background:#dfdfdf;
+}
+.contact-form-container:before {
+  height: 100%;
+  background: #dfdfdf;
+  position: absolute;
+  border-top: 35px solid #fff;
+  content: "";
+  display: block;
+  width: 300%;
+  top: 0;
+  left: -300%;
+  z-index: 0;
+}
+.contact-form-container-left:after {
+  height: 100%;
+  background: #dfdfdf;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3000%;
+  top: 0;
+  left: 100%;
+  z-index: 0;
+}
+.form-control {
+  border-radius:0;
+  padding:12px 15px 11px 15px;
+  height:auto;
+  border:2px solid #c4c5c5;
+  box-shadow:none;
+}
+.gray-bg-container .contact-form-container .form-control, .gray-bg-container .contact-form-container-left .form-control {
+  border:2px solid #fff;
+}
+.form-control:focus {
+  border-color:#a8a8a8;
+  box-shadow:none;
+
+}
+.form-control.error {
+  border:2px solid #E42C3E;
+  z-index:1;
+}
+.form-control.valid {
+  border:2px solid #3db03f;
+  z-index:1;
+}
+.gray-bg-container .contact-form-container .form-control.valid , .gray-bg-container .contact-form-container-left .form-control.valid {
+  border:2px solid #3db03f;
+  z-index:1;
+}
+.gray-bg-container .contact-form-container .form-control.error , .gray-bg-container .contact-form-container-left .form-control.error {
+  border:2px solid #E42C3E;
+  z-index:1;
+}
+#contactSuccess {
+  margin-top:15px;
+  margin-bottom:0px;
+}
+
+.form-control::-webkit-input-placeholder       {color: #c4c5c5; opacity: 1; transition: opacity 0.3s ease;}
+.form-control::-moz-placeholder                {color: #c4c5c5; opacity: 1; transition: opacity 0.3s ease;}
+.form-control:-moz-placeholder                 {color: #c4c5c5; opacity: 1; transition: opacity 0.3s ease;}
+.form-control:-ms-input-placeholder            {color: #c4c5c5; opacity: 1; transition: opacity 0.3s ease;}
+.form-control:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.form-control:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.form-control:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.form-control:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+.contact-form-container .error{
+  margin-top:5px;
+}
+input, textarea , .login-select, select{
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  border: 1px solid #d6d6d6;
+  border-radius: 0px;
+  color: #4b4e53;
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0;
+  outline: medium none;
+  padding: 8px;
+}

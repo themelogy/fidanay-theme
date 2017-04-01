@@ -1,0 +1,27 @@
+
+/* #FLICKR
+================================================== */
+ul#flickrfeed {
+  margin:0;
+  padding:0;
+}
+ul#flickrfeed li {
+  display: inline-block;
+  float: left;
+}
+ul#flickrfeed li a {
+  display: block;
+}
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  ul#flickrfeed li a {
+    height: 78px;
+    width: 78px;
+  }
+  ul#flickrfeed li a img{
+    height: 78px;
+    width: 78px;
+  }
+
+}

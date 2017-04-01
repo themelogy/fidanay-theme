@@ -1,0 +1,87 @@
+@font-face {
+    font-family: CustomIcons;
+    src: url(../fonts/customicons.eot);
+    src: url(../fonts/customicons.eot?#iefix) format('embedded-opentype'), url(../fonts/customicons.woff) format('woff'), url(../fonts/customicons.ttf) format('truetype'), url(../fonts/customicons.svg#customicons) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[data-icon]:before {
+    font-family: CustomIcons;
+    content: attr(data-icon);
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon_graduate, .icon_educator, .icon_twohand, .icon_leadership {
+    font-family: CustomIcons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased
+}
+
+.icon_graduate:before {
+    content: "\0041"
+}
+
+.icon_educator:before {
+    content: "\0042"
+}
+
+.icon_twohand:before {
+    content: "\0043"
+}
+
+.icon_leadership:before {
+    content: "\0044"
+}
+
+.glyph {
+    float: left;
+    text-align: center;
+    padding: .75em;
+    margin: .4em 1.5em .75em 0;
+    width: 6em;
+    text-shadow: none
+}
+
+.glyph_big {
+    font-size: 128px;
+    color: #59c5dc;
+    float: left;
+    margin-right: 20px
+}
+
+.glyph div {
+    padding-bottom: 10px
+}
+
+.glyph input {
+    font-family: consolas, monospace;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    box-shadow: 0 0 0 1px #ccc;
+    padding: .2em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.glyph .fs1 {
+    font-size: 2em
+}

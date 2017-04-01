@@ -1,0 +1,81 @@
+$theme-colors: (
+    yellow1: #ffea00,
+    blue1: #468ebc,
+
+    grey1: #565a60,
+    grey2: #4b4e53,
+    grey3: #414146
+);
+
+$default-theme-color: map_get($theme-colors, 'blue1');
+$default-reverse-color: map_get($theme-colors, 'grey1');
+$default-font: 'Roboto', sans-serif;
+
+// Clearfix
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+//
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin inline-block() {
+  display: inline-block;
+
+  &.c-pull-left {
+    float: left;
+  }
+
+  &.c-pull-right {
+    float: right;
+  }
+}
+
+// Set padding and margin to 0
+
+@mixin reset-padmar() {
+  padding: 0;
+  margin: 0;
+}
+
+
+// Border radius.
+
+@mixin border-radius($radius, $important: '') {
+  -webkit-border-radius: $radius#{$important};
+  -moz-border-radius: $radius#{$important};
+  -ms-border-radius: $radius#{$important};
+  -o-border-radius: $radius#{$important};
+  border-radius: $radius#{$important};
+}
+
+@mixin alpha($opacity) {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity})"; // IE8
+    filter: alpha(opacity=#{$opacity});
+    opacity: #{$opacity}/100;
+}
+
+@mixin radial-gradient($from, $to) {
+  background: -moz-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $from), color-stop(100%, $to));
+  background: -webkit-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: -o-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: -ms-radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background: radial-gradient(center, circle cover, $from 0%, $to 100%);
+  background-color: $from;
+}

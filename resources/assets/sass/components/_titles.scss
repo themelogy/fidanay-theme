@@ -1,0 +1,59 @@
+/*****	#TITLES	*****/
+.title-20 {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:20px;
+  color:#4b4e53;
+  margin:0;
+}
+.title-26 {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:26px;
+  color:#4b4e53;
+  margin-bottom:20px;
+}
+ul.list-icons  i{
+  margin-right: 5px;
+}
+/*****	#ICON HOVER	*****/
+.hi-icon-wrap {
+  background-color:$default-theme-color;
+  width:110px;
+  height:110px;
+
+  transition:background-color 0.2s ease 0s;
+}
+.hi-icon {
+  display: inline-block;
+  margin: 22px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color:#4b4e53;
+  font-size:34px;
+}
+.hi-icon:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.hi-icon:before {
+  font-size: 40px;
+  line-height: 90px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+}

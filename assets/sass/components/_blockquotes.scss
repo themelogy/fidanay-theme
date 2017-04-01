@@ -1,0 +1,31 @@
+/* #BLOCKQUOTES
+==================================================*/
+blockquote.custom-blockquote, blockquote.custom-blockquote p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #777;
+  font-style: italic;
+}
+blockquote.custom-blockquote {
+  margin: 0 0 10px 38px;
+  padding: 25px 20px 18px 20px;
+  position:relative;
+  background-color:#f8f8f8;
+}
+blockquote.custom-blockquote:before {
+  background-image: url(../images/quote2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color:$default-theme-color;
+  z-index:99;
+  height:100%;
+  width:38px;
+  display:block;
+  content:"";
+  position:absolute;
+  left:-38px;
+  top:0px;
+}
+blockquote, blockquote p {
+  font-style: italic;
+}

@@ -1,0 +1,123 @@
+/* #A, READ MORE BUTTONS
+================================================== */
+a:hover {
+  cursor:pointer;
+}
+/*****	#READ MORE	*****/
+a.r-m-plus{
+  position:relative;
+  display:inline-block;
+}
+a.r-m-plus:before, a.r-m-plus:after{
+  content:'';
+  position:absolute;
+}
+.r-m-plus:after{
+  width:49px;
+  height:100%;
+  background-color:$default-theme-color !important;
+  background-image: url(../images/arrow-rm.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+a.r-m-full {
+  background-color:#dfdfdf;
+  color:#4b4e53;
+  padding-right: 64px !important;
+  transition: all 0.3s ease 0s;
+}
+a.r-m-full:hover {
+  background-color:$default-theme-color;
+  color:#414146;
+  transition: all 0.3s ease 0s;
+}
+a.r-m-full:hover:after  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  background-color:transparent !important;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+a.r-m-full:after {
+  right: 0px !important;
+  top: 0px !important;
+}
+a.r-m-plus-small {
+  background-color:$default-theme-color !important;
+  background-image: url(../images/arrow-rm.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 48px;
+  width: 48px;
+  text-indent: -9999px;
+}
+a.r-m-plus-small:hover {
+  background-color:#414146 !important;
+  background-image: url(../images/arrow-rm-hover.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease 0s;
+}
+
+/*****	#READ MORE BLOG	*****/
+.blog-rm {
+  position:relative;
+  display:inline-block;
+  font-size:13px !important;
+  background-color:transparent !important;
+  color:#4b4e53 !important;
+  padding: 11px 40px 12px 18px !important;
+  border: 2px solid #dfdfdf !important;
+  transition: all 0.3s ease 0s;
+}
+.black-border{
+  border: 2px solid #4b4e53 !important;
+}
+.blog-rm:before, .blog-rm:after{
+  content:'';
+  position:absolute;
+}
+.blog-rm:after{
+  width:28px;
+  height:100%;
+  background-image: url(../images/arrow-rm.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  right: 0px !important;
+  top: 0px !important;
+  transition: all 0.3s ease 0s;
+}
+.blog-rm:hover {
+  background-color:$default-theme-color !important;
+  color:#4b4e53 !important;
+  border: 2px solid $default-theme-color !important;
+  transition: all 0.3s ease 0s;
+}
+.blog-rm:hover:after  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.btn-rm-thin-bg-white {
+  color:#fff !important;
+}
+.btn-rm-thin-bg-white:after{
+  background-image: url(../images/arrow-rm-white.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+.btn-rm-thin-bg-white:hover:after{
+  background-image: url(../images/arrow-rm.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+}

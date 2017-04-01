@@ -1,0 +1,50 @@
+
+/*	#COUNTER
+==================================================*/
+.counter-bg {
+  background:url(../images/f-box4-bg.png) left top repeat ;
+}
+.counter-bg-color {
+  background:$default-theme-color ;
+}
+.stat {
+  padding-top: 40px;
+  padding-bottom: 65px;
+
+}
+.highlight {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  color:#4b4e53;
+  display:block;
+  float:left;
+  overflow:hidden;
+  margin-bottom: 10px;
+  font-size:48px;
+  line-height:48px;
+}
+.stat i {
+  color:#fff;
+}
+.milestone-details {
+  margin-left:70px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:18px;
+}
+.counter-icon{
+  display: block;
+  float:left;
+  height: 50px;
+  width: 50px;
+  margin-right:20px;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 100 !important;
+  color: #4b4e53;
+  transition: all 0.3s ease 0s;
+}
+.milestone-counter {
+  margin-top:50px;
+  min-height:105px;
+}

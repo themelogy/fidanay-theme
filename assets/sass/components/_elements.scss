@@ -1,0 +1,109 @@
+
+/* #ELEMENTS
+=======================================*/
+
+/*****	#DROPCAPS	*****/
+.dropcap1 {
+  background: none repeat scroll 0 0 #EAEAEA;
+  color: #777;
+  display: inline-block;
+  float: left;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 75px;
+  margin: 6px 15px 0 0;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 56px;
+}
+.dropcap2 {
+  color: #fff;
+  display: inline-block;
+  float: left;
+  font-size: 40px;
+  height: 75px;
+  line-height: 70px;
+  text-align: center;
+  width: 75px;
+  border-radius: 50%;
+  padding-left: 1px;
+  background-attachment: scroll;
+  background-color: #8f8f8f;
+  background-image: none;
+  background-repeat: repeat;
+  background-position: 0 0;
+  margin:8px 15px 0 0;
+}
+.dropcap3 {
+  color: #777777;
+  display: inline-block;
+  float: left;
+  font-size: 60px;
+  font-weight: lighter;
+  line-height: 60px;
+  margin: 0 15px 0 0;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.dropcap4 {
+  background: none repeat scroll 0 0 $default-theme-color;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 75px;
+  margin: 6px 15px 0 0;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 56px;
+}
+/*****	#STYLED LIST	*****/
+.styled-list {
+  list-style: none outside none;
+  margin: 0;
+  padding:0;
+}
+.styled-list.style-1 > li:before {
+  background-position: 0 -30px;
+}
+.styled-list.style-2 > li:before {
+  background-position: 0 -60px;
+}
+.styled-list.style-3 > li:before {
+  background-position: 0 -14px;
+}
+.styled-list.style-4 > li:before {
+  background-position: 0 0;
+}
+.styled-list.style-5 > li:before {
+  background-position: 0 -45px;
+}
+.styled-list.style-6 > li:before {
+  background-position: 0 -75px;
+}
+.styled-list > li:before {
+  height: 15px;
+  left: 0;
+  top: 1.5px;
+  width: 15px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(../images/list-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.styled-list > li:before {
+  content: "";
+  position: absolute;
+}
+.styled-list > li {
+  padding-left: 19px;
+  position: relative;
+}
+.demo-list-styles ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  margin-bottom:10px;
+}

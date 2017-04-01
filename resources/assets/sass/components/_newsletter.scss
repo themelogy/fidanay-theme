@@ -1,0 +1,128 @@
+/* #NEWSLETTER
+================================================== */
+.nl-container {
+  position:relative;
+}
+.nl-icon-container-bg {
+  background-color: rgba($default-theme-color,0.5);
+  padding-top:45px;
+  width:85px;
+  float:left;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.nl-icon-container {
+  background-color:$default-theme-color;
+  width:85px;
+  height:85px;
+  opacity:1;
+  text-align:center;
+  padding:19px;
+}
+.nl-icon-container .icon_mail_alt {
+  padding:0;
+  margin:0;
+  padding-bottom: 14px;
+  padding-top: 10px;
+  color:#4b4e53;
+  border-color:#4b4e53;
+}
+.nl-main-container-bg {
+  background-color:#dfdfdf;
+  padding-top:45px;
+}
+.nl-main-container-bg{
+  margin-left: 85px;
+}
+.nl-main-container {
+  background-color:#565a60;
+}
+.nl-caption {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 7px;
+  padding-top: 6px;
+  font-weight: lighter;
+  height:85px;
+  float:left;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.newsletterform {
+  float:right;
+  border: none;
+  height:85px;
+  margin:0;
+  padding:0;
+}
+.nl-email-input {
+  float: left;
+  border: none;
+  width:200px;
+  padding-left:15px;
+  padding-top:34px;
+  height:65px;
+  font-size:14px;
+  line-height:18px !important;
+  padding-top: 35px;
+}
+.nl-button {
+  border:none;
+  color:#4b4e53;
+  background-color:$default-theme-color;
+  height: 85px;
+  padding:35px 35px 36px 35px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+.nl-button:hover{
+  color:#fff;
+  background-color:#4b4e53;
+}
+.nl-lines:before {
+  content: "";
+  display: block;
+  width: 300%;
+  height: 40px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 0;
+  left: -300%;
+  filter: alpha(opacity=50);
+  height:130px;
+}
+.nl-lines:after {
+  content: "";
+  display: block;
+  width: 3000%;
+  height: 85px;
+  background: #565a60;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  z-index: -1;
+}
+#notification_container {
+  position:absolute;
+  top:0px;
+  right:0;
+  z-index:3;
+}
+#notification_container .alert{
+  padding-top:11px;
+  padding-bottom:10px;
+  -webkit-box-shadow: 0 1px 15px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 15px rgba(0,0,0,.2);
+  box-shadow: 0 1px 15px rgba(0,0,0,.2);
+}
+#notification_container a{
+  color:#245269;
+  font-weight: 700;
+}
+#notification_container a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,115 @@
+/*	#TITLE BLOCK 2
+==================================================*/
+.title-block-2 {
+  color:#4b4e53;
+  padding:24px 25px 24px 25px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:21px;
+  background-color:$default-theme-color;
+  display:inline-block;
+  height:68px;
+}
+
+/*	#TITLE BLOCK
+==================================================*/
+.title-block {
+  color:#4b4e53;
+  padding:24px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:21px;
+  background-color:$default-theme-color;
+  display:inline-block;
+  height:68px;
+}
+.title-lines {
+  position:relative;
+}
+.title-lines:before {
+  content: "";
+  display: block;
+  width: 300%;
+  height: 40px;
+  background: $default-theme-color;
+  position: absolute;
+  top: 0;
+  left: -300%;
+  filter: alpha(opacity=50);
+  opacity:0.5;
+  height:68px;
+  z-index:1;
+}
+.title-lines:after {
+  content: "";
+  display: block;
+  width: 3000%;
+  height: 4px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 32px;
+  left: 0;
+  z-index: -1;
+}
+.title-lines-sidebar {
+  position:relative;
+}
+.title-lines-sidebar:after {
+  content: "";
+  display: block;
+  width: 3000%;
+  height: 4px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: -1;
+}
+.title-lines-sidebar-left {
+  position:relative;
+}
+.title-lines-sidebar-left:after {
+  content: "";
+  display: block;
+  width: 3000%;
+  height: 4px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  z-index: -1;
+}
+.left-sidebar .title-lines-sidebar:after {
+  display: none;
+}
+.left-sidebar .title-lines-sidebar:before {
+  content: "";
+  display: block;
+  width: 300%;
+  height: 4px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 29px;
+  left: -300%;
+  z-index: -1;
+}
+.title-lines-sidebar .title-block{
+  padding:20px 25px 20px 25px;
+  height:auto;
+  font-size: 20px;
+}
+.title-lines-container {
+  overflow:hidden;
+}
+.title-lines-white-bg {
+  content: "";
+  display: block;
+  width: 300%;
+  height: 40px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: -300%;
+  height:68px;
+  z-index: 0;
+}

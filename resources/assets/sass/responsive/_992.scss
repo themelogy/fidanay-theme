@@ -1,0 +1,40 @@
+/******************************************************************************
+  Min Width "992px" DESKTOP
+*******************************************************************************/
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: block !important;
+    height: auto !important;
+  }
+  .navbar-collapse.collapse {
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .header-2 .main-menu .nav.navbar-nav, .header-4 .main-menu .nav.navbar-nav {
+    margin-right: 86px;
+  }
+  .header-3 .main-menu .nav.navbar-nav {
+    margin-right: 80px;
+  }
+  .header-1 .main-menu .nav.navbar-nav {
+    margin-right: 100px;
+  }
+  .main-menu-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+
+}
+
+/******************************************************************************
+  Max Width "1199px" - Min Width "992px"
+*******************************************************************************/
+/*@media (min-width: 992px) and (max-width: 1199px) {
+  .header .main-menu .megamenu > .sub {*/
+/*margin: -1px 0 0 -37px;*/
+/* width: 832px;*/
+/* width:100%;
+}
+}*/

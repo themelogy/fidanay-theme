@@ -1,0 +1,43 @@
+/* #TOGGLE
+=========================================================*/
+.toggle-view-custom {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.toggle-view-custom li {
+  cursor:pointer;
+}
+.toggle-view-custom li:first-child {
+  margin-top:0px;
+}
+.toggle-view-custom .panel {
+  display:none;
+  background:none;
+  border:none;
+  border-radius:0;
+  border-right: 15px solid #eee;
+  margin:0;
+  margin-left: 49px;
+  padding: 15px;
+  padding-right: 17px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.toggle-no-bg.toggle-view-custom .panel {
+  border-left: 5px solid #dfdfdf;
+  border-right: none;
+  display: none;
+  margin-left: 23px;
+  padding: 15px 0 15px 36px;
+}
+.toggle-no-bg  .ui-accordion-header{
+  background: none;
+}
+.toggle-view-custom .panel p {
+  margin-top:0;
+}
+.panel p:last-child {
+  margin-bottom:0px;
+}

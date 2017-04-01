@@ -1,0 +1,111 @@
+/* #TESTIMONIALS
+================================================== */
+.ts-container {
+  position:relative;
+}
+.ts-icon-container-bg {
+  background-color: rgba($default-theme-color,0.5);
+  padding-top:52px;
+  padding-bottom:53px;
+  width:85px;
+  float:left;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.ts-icon-container {
+  background-color:$default-theme-color;
+  width:85px;
+  height:85px;
+  opacity:1;
+  text-align:center;
+  padding:19px;
+}
+.ts-icon-container span {
+  padding:0;
+  margin:0;
+  padding-bottom: 14px;
+  padding-top: 8px;
+  font-size:26px;
+  color:#4b4e53;
+  border-color:#4b4e53;
+}
+.ts-main-container-bg {
+  background-color:#dfdfdf;
+}
+.ts-main-container-bg{
+  margin-left: 85px;
+}
+.ts-lines:before {
+  content: "";
+  display: block;
+  width: 300%;
+  height: 40px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 0;
+  left: -300%;
+  filter: alpha(opacity=50);
+  height:190px;
+}
+.ts-text-container {
+  position:relative;
+  min-height:190px;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-right: 240px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.ts-img-container {
+  width:200px;
+  height:190px;
+  position:absolute;
+  right:0;
+  top:0;
+}
+.ts-img-container img{
+  width:200px;
+  height:190px;
+}
+.tls-small-text-container {
+  background-color:#fff;
+  padding:25px;
+  padding-bottom:75px;
+}
+.tls-small-img-container {
+  float:left;
+  margin-right: 15px;
+}
+.tls-small-author-name{
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:14px;
+  color:#4b4e53;
+}
+.tls-small-author-container {
+  margin-top: -55px;
+}
+.bg-lite-gray {
+  background:#eee;
+}
+.testimonials {
+  position:relative;
+}
+.quote-author {
+  position: relative;
+  left: 15px;
+  margin-top: 20px;
+}
+.quote-author-description {
+  display: block;
+  /* color: #aaa; */
+  font-size: 12px;
+}
+.author-testimonial {
+  display: inline;
+  margin-top: 7px;
+  font-size: 16px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  color: #4b4e53;
+}

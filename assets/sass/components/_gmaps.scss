@@ -1,0 +1,25 @@
+/* #GMAPS
+=====================================================*/
+#big-map{
+  height: 100%;
+  width: 100%;
+}
+.main-menu .google-map {
+  padding-bottom:301px;
+}
+#big-map-footer{
+  height: 400px;
+  width:100%;
+  transform: none !important;
+}
+#big-map-contact{
+  height: 500px;
+  width:100%;
+  transform: none !important;
+}
+.nl-main-container-bg {
+  z-index:1;
+}
+.google-map-container-footer img {
+  max-width: none !important;
+}

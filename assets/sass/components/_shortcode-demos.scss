@@ -1,0 +1,50 @@
+/* #SHORTCODES #DEMO
+================================================== */
+.demo-popup-gallery a img{
+  margin-bottom: 3px;
+}
+.demo-grid-block {
+  background-color: #EEE;
+  line-height: 40px;
+  min-height: 40px;
+  text-align: center;
+  display: block;
+}
+.demo-total-icons {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 50px;
+  padding-top:22px;
+
+}
+.fontawesome-icon-list i {
+  font-size: 1.3em;
+  margin-right: 5px;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+}
+.fontawesome-icon-list [class*="col-md-"] {
+  margin-bottom: 12px;
+}
+.demo-elegant-font span.col-md-3.col-sm-4{
+  display:block;
+  margin-bottom: 12px;
+}
+.demo-elegant-font span.col-md-3.col-sm-4 span{
+  font-size: 1.3em;
+  margin-right: 5px;
+}
+.demo-bs-glyphicons .col-md-3.col-sm-4{
+  margin-bottom: 12px;
+}
+.demo-bs-glyphicons span.glyphicon{
+  font-size: 1.3em;
+  margin-right: 5px;
+}
+.demo-anim-text {
+  margin-top:15px;
+} 

@@ -1,0 +1,36 @@
+/******************************************************************************
+  Max Width "1024px" TABLET
+*******************************************************************************/
+@media (max-width: 1024px) {
+
+  /*	#BOXES 2  ========================================*/
+  .feature-box2 .ca-main{
+    padding-top: 26px;
+  }
+  /*	#FOOTER =========================================*/
+  .footer-copyright-container {
+    padding-right:40px;
+  }
+  /*	#FOOTER 2 ======================================*/
+  .logo-text-container {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 40px;
+  }
+  .contact-list-footer {
+    padding-bottom: 13px;
+  }
+
+  /*	#TWITTER =======================================*/
+  .tweet .fa-twitter{
+    margin-right: 15px;
+    font-size: 24px;
+  }
+  .tweet_text {
+    padding: 0 18px 5px 36px;
+  }
+  /*	#FOOTER CONTACT INFO =========================*/
+  .contact-list-footer {
+    padding: 10px;
+  }
+}

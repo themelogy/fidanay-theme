@@ -1,0 +1,19 @@
+/*	#HEADER
+=====================================================*/
+.logo-row {
+  position:relative;
+  width:190px;
+  z-index:9999;
+}
+/* .header-1 .logo-row {
+	height:120px;
+	transition: height 0.4s ease 0s;
+} */
+.header-3 .header-wrapper {
+  background-color:#fff;
+}
+.header-2 .header-wrapper, .header-4 .header-wrapper{
+  background-color:#fff;
+}
+
+@import "topbar";

@@ -1,0 +1,470 @@
+/* blue $theme-color / rgba($theme-color,0.5)
+====================================================================== */
+::selection
+{
+  background-color: $theme-color;
+  color:#fff;
+}
+::-moz-selection
+{
+  background-color: $theme-color;
+  color:#fff;
+}
+
+.header .main-menu .navbar .nav > li:hover > a {
+  background-color: $theme-color;
+  color:#fff;
+}
+.header .main-menu .navbar .nav > li:hover > a {
+  background-color: $theme-color;
+  color:#fff;
+}
+.header .main-menu .navbar .nav > li.parent:hover > a {
+  background: $theme-color;
+  color:#fff;
+}
+.header .main-menu .navbar .nav > li.current > a {
+  background: $theme-color;
+  color:#fff;
+}
+.header-2 .main-menu .navbar .nav > li.current > a {
+  border-bottom: 3px solid $theme-color;
+  background: #fff;
+  color:#565a60;
+}
+.header .main-menu .sub {
+  background: #fff;
+  border-top: 2px solid $theme-color;
+  border-bottom: 2px solid $theme-color;
+}
+.social-link {
+  color:#fff;
+  background-color:$theme-color;
+}
+.social-link:hover {
+  color:#fff;
+  background-color:#4b4e53;
+}
+.ts-icon-container span {
+  color: #fff;
+  border-color: #fff;
+}
+.nl-icon-container .icon_mail_alt {
+  color: #fff;
+  border-color: #fff;
+}
+.sb-search-open .sb-search-input {
+  border: 2px solid $theme-color;
+}
+.sb-search-submit:hover, .sb-icon-search:hover{
+  background-color: $theme-color;
+
+}
+.sb-icon-search:hover .main-menu-icon {
+  color:#fff !important;
+  border-color:#fff;
+}
+.sb-search-open  .main-menu-icon {
+  color: #fff;
+}
+.sb-search-open .sb-search-submit:hover {
+  color: #fff;
+}
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+  background: $theme-color;
+}
+.next-blog, .prev-blog, .next-portfolio, .prev-portfolio{
+  background-color:$theme-color;
+}
+.ts-icon-container {
+  background-color:$theme-color;
+}
+.nl-icon-container {
+  background-color:$theme-color;
+}
+.nl-button {
+  color:#fff;
+  background-color:$theme-color;
+}
+.logo-text-container {
+  color: #fff;
+}
+.social-icons-container-footer .main-menu-icon {
+  color:#fff ;
+  border-color:#fff;
+}
+blockquote.custom-blockquote:before {
+  background-color:$theme-color;
+}
+.page-title-container:before {
+  content: "";
+  background: url("../../images/page-head-bg.png") no-repeat;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=25)"; // IE8
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+  width:100%;
+  height:138px;
+  display:block;
+  position: absolute;
+}
+.page-title-container {
+  background: rgba($theme-color,0.75);
+  position: relative;
+}
+.countdown-item-container {
+  background: $theme-color;
+}
+.sevice-item {
+  background:$theme-color;
+}
+.blog-categories li a:hover .blog-cat-icon{
+  background-color:$theme-color;
+}
+.blog-categories li.current .blog-cat-icon{
+  background-color:$theme-color;
+}
+.pagination-1 a:hover {
+  background-color:$theme-color;
+  color:#fff;
+}
+.pagination-1 a.pag-current {
+  background:$theme-color;
+  color:#fff;
+}
+.pagination-1 .pag-prev:hover {
+  background-color:$theme-color;
+}
+.pagination-1 .pag-next:hover {
+  background-color:$theme-color;
+}
+.by-post-author .comment-author-avatar {
+  background: $theme-color;
+}
+.comment-author-badge{
+  background: $theme-color;
+  color: #fff;
+}
+.skill-bar-content {
+  background: $theme-color;
+}
+.skillbar-bar {
+  background:$theme-color;
+  color: #fff;
+}
+.skill-bar .skill-title {
+  color: #fff;
+}
+.skillbar-title {
+  color: #fff;
+}
+.latest-post-sidebar img:hover {
+  border-color: $theme-color;
+  background: none repeat scroll 0 0 $theme-color;
+}
+.social-share-container .main-menu-icon:hover{
+  background:$theme-color;
+}
+.dropcap4 {
+  background: none repeat scroll 0 0 $theme-color;
+  color: #fff;
+}
+.social-icons-container-footer {
+  background-color:$theme-color;
+}
+.title-block.footer-block {
+  color: #fff;
+  background-color: $theme-color;
+}
+.latest-post-footer-item a:hover .title-post-footer{
+  color:$theme-color;
+}
+.title-bg-after:after{
+  background: $theme-color;
+}
+#footer-nav li a:hover {
+  color: $theme-color;
+}
+.footer-copyright-text a.author {
+  color: lighten($theme-color, 50%);
+  &:hover {
+    color: lighten($theme-color, 25%);
+  }
+}
+.logo-row-footer-2 {
+  background-color:$theme-color;
+  color:#fff;
+}
+.title-block.footer-2-block {
+  color: #fff;
+  background-color: $theme-color;
+}
+.r-m-plus:after{
+  background-color:$theme-color !important;
+}
+a.r-m-full:hover {
+  background-color:$theme-color;
+  color:#414146;
+}
+a.r-m-plus-small {
+  background-color:$theme-color !important;
+}
+.blog-rm:hover {
+  background-color:$theme-color !important;
+  color:#fff !important;
+  border: 2px solid $theme-color !important;
+}
+.highlight-text, .highlight-text-grey {
+  background-color: $theme-color;
+  color:#fff;
+}
+.button {
+  background-color:$theme-color;
+  color:#fff;
+}
+.button.thin:hover {
+  background-color:$theme-color;
+  color:#fff;
+  /* border: 2px solid $theme-color; */
+}
+.button.thin-bg-dark:hover {
+  background-color:$theme-color !important;
+  color:#fff !important;
+  border: 2px solid $theme-color !important;
+}
+.button.hover-thin  {
+  border: 2px solid $theme-color;
+}
+.button.thin-inv, .button.thin-inv-bg-dark {
+  background-color:$theme-color !important;
+  color:#fff !important;
+  border: 2px solid $theme-color !important;
+}
+.button.gray:hover {
+  color:#fff;
+  background-color:$theme-color;
+}
+.button.gray-lite:hover {
+  background-color:$theme-color;
+  color:#fff;
+}
+.button.get-theme {
+  background-color:$theme-color;
+}
+#back-top a:hover {
+  background-color: $theme-color;
+}
+.hi-icon {
+  color: #fff;
+}
+.hi-icon-effect-9 .hi-icon:after {
+  box-shadow: 0 0 0 2px #fff;
+}
+.feature-box2 .ca-icon {
+  background-color:$theme-color;
+  color:#fff;
+}
+.feature-box1 {
+  background-color:$theme-color;
+}
+.feature-box1:before {
+  background: $theme-color;
+}
+.feature-box1:after {
+  background: $theme-color;
+}
+.service-icon {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.service-item-title {
+  color: #fff;
+}
+.countdown-amount, .countdown-period {
+  color: #fff;
+}
+.ui-accordion-header:hover span{
+  background-color: $theme-color;
+}
+.ui-accordion-header-active span {
+  background-color: $theme-color;
+}
+.title-block-2 {
+  color:#fff;
+  background-color:$theme-color;
+}
+.title-block {
+  color:#fff;
+  background-color:$theme-color;
+}
+.title-lines:before {
+  background: $theme-color;
+}
+.pt-best .pt-content-container {
+  border-right:2px solid $theme-color;
+  border-left:2px solid $theme-color;
+}
+.pt-best .pt-h1-container {
+  border:2px solid $theme-color;
+}
+.pt-best .price-container {
+  background:$theme-color;
+  color:#fff;
+}
+.price-col-main h1 {
+  background-color: $theme-color;
+  color: #fff;
+}
+.pt-col-main {
+  background-color:$theme-color;
+}
+.pt-best .currency, .pt-best .price, .pt-best .cents, .pt-best .place2 {
+  color: #fff;
+}
+h1.pt-col-main {
+  background-color:$theme-color;
+  color:#fff;
+}
+.feature2-numb-container {
+  background-color: $theme-color;
+}
+.feature2-numb {
+  color: #fff;
+}
+.at {
+  color: $theme-color;
+}
+.hi-icon-wrap {
+  background-color:$theme-color;
+}
+.normal-page .normal-page-act {
+  background-color: $theme-color !important;
+}
+.one-page .one-page-act {
+  background-color: $theme-color !important;
+}
+.layout-switcher a.layout:hover {
+  background: $theme-color;
+}
+.layout-switcher a.layout.current {
+  background: $theme-color;
+}
+a.dark-style:hover {
+  color:#fff;
+  background:$theme-color;
+}
+/********************************************/
+.post-meta li a:hover{
+  color: $theme-color;
+}
+a {
+  color: $theme-color;
+}
+.a-invert:hover{
+  color: $theme-color;
+}
+/* #FFF
+*********************************************/
+.page-title-container h2 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+.header .main-menu .navbar .nav > li.current > a .main-menu-icon {
+  color: #fff;
+  border-color: #fff;
+}
+.header .main-menu .navbar .nav > li:hover > a .main-menu-icon {
+  color: #fff;
+  border-color: #fff;
+}
+/*  .sb-search-submit:hover, .sb-icon-search:hover {
+	border-color:#fff;
+	color:#fff;
+}  */
+
+.feature7-bg-mask{
+  background-color: rgba($theme-color,0.5);
+}
+.feature7-main-container {
+  background: $theme-color;
+}
+.feature7-main-text {
+  color:#fff;
+}
+.feature7-sub-text {
+  color:#fff;
+  border-left: 2px solid #fff;
+}
+.counter-bg-color {
+  background: $theme-color;
+}
+.counter-icon, .counter-bg-color .highlight, .counter-bg-color {
+  color:#fff;
+}
+
+/* #RGB
+*********************************************/
+.ts-icon-container-bg {
+  background-color: rgba($theme-color,0.5);
+}
+.nl-icon-container-bg {
+  background-color: rgba($theme-color,0.5);
+}
+.page-title-bg {
+  background: rgba($theme-color, .5);
+}
+.mask-main-color-bg {
+  background-color: rgba($theme-color, .5);
+}
+.mask-main-color-bg:after {
+  background-color: rgba($theme-color, .5);
+}
+.mask-footer-copyright-container {
+  background-color: rgba($theme-color, .5);
+}
+.mask-footer-copyright-container:after {
+  background-color: rgba($theme-color, .5);
+}
+/******************************************************************************
+  Max Width "991px"
+*******************************************************************************/
+@media (max-width: 991px) {
+
+  .sb-search-submit-respons{
+    background-color:$theme-color;
+  }
+  .sb-search-submit-respons:hover	{
+    background-color:$theme-color;
+  }
+}
+
+/* #FLEXSLIDER
+*********************************************/
+.flex-direction-nav li a:hover {
+  /* background-color: $theme-color; */
+}
+.slider-1 .slides li h2 {
+  color:#fff;
+  background-color:$theme-color;
+}
+
+/* #REVO SLIDER
+*********************************************/
+.slider-1-cap-bg30 {
+  background-color:$theme-color;
+  color:#fff;
+}
+.slider-1-cap-bg30-only {
+  background-color:$theme-color;
+  color:#fff;
+}
+.slider-1-num-bg160 {
+  background: rgba($theme-color, 0.5) !important;
+}
+.slider-1-num {
+  color: #fff;
+}
+.font-color-change .feature-box1 .ca-main, .font-color-change .feature-box1 .ca-icon, .font-color-change .feature-box1 .ca-sub {
+  color:#fff;
+}

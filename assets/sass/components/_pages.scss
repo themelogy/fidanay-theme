@@ -1,0 +1,22 @@
+.child-page {
+  @include radial-gradient(lighten($default-theme-color, 25%), $default-theme-color);
+  color: #fff;
+  min-height: 150px;
+  position: relative;
+  .title {
+    padding-left: 10px;
+    a {
+      color: #fff;
+      padding-left: 10px;
+      &:hover {
+        color: lighten($default-theme-color, 50%);
+      }
+    }
+    &:before {
+      content: '';
+      border-left: 1px solid #fff;
+      height: 30px;
+      position: absolute;
+    }
+  }
+}

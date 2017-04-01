@@ -1,0 +1,33 @@
+/* #NO SLIDER
+===================================================================*/
+.no-slider-container-860 {
+  height:860px;
+  background: url(../images/rider-860.jpg) no-repeat center #f3f3f3;
+  background-size: cover;
+}
+.no-slider-text-container {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  color:#4b4e53;
+  margin-top:18%;
+  text-align:right;
+}
+.no-slider-text-row1 {
+  display:inline-block;
+  font-size:65px;
+  line-height:70px;
+}
+.no-slider-text-row2 {
+  display:inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:114px;
+  line-height:120px;
+  border-top: 4px solid $default-theme-color;
+  border-bottom: 4px solid $default-theme-color;
+}
+.no-slider-text-row3 {
+  display:inline-block;
+  font-size:33px;
+  line-height:35px;
+}

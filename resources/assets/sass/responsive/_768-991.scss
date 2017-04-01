@@ -1,0 +1,24 @@
+/******************************************************************************
+  Max Width "991px" - Min Width "768px"
+*******************************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .main-menu .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  /* #SERVICES ====================================*/
+  .sevice-item {
+    width:160px;
+    height:140px;
+  }
+  .service-icon {
+    padding: 13px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+  }
+
+}

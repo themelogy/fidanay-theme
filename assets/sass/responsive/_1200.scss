@@ -1,0 +1,11 @@
+/******************************************************************************
+  Max Width "1200px"
+*******************************************************************************/
+@media (max-width: 1200px) {
+  .tp-banner-container .tp-bullets.simplebullets.preview4 div span:before{
+    display:none;
+  }
+  .tp-banner-container .tp-bullets.simplebullets.preview4 .bullet {
+    margin-right:2px !important;
+  }
+}

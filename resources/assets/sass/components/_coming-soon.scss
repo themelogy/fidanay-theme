@@ -1,0 +1,38 @@
+
+/* #COMING SOON
+================================================== */
+.countdown-item-container {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 38px;
+  width: 180px;
+  height: 160px;
+  background: $default-theme-color;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+}
+.countdown-amount {
+  display:block;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size: 60px;
+  line-height: 70px;
+  color: #4b4e53;
+}
+.countdown-period {
+  display:block;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:14px;
+  text-transform:uppercase;
+}
+.coming-soon-main-text-container h1{
+  font-weight: 600;
+  font-size:60px;
+  line-height:60px;
+  margin-top:0;
+}
+.coming-soon-main-text-container h3{
+  color: #7e8082;
+}

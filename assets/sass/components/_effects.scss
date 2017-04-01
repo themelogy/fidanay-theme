@@ -1,0 +1,38 @@
+
+/*****	#EFFECT 9 *****/
+.hi-icon-effect-9 .hi-icon {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+}
+.hi-icon-effect-9 .hi-icon:after {
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 2px #4b4e53;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+/*****	#EFFECT 9a *****/
+.feature1-row-container:hover .hi-icon-effect-9a .hi-icon:after {
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+.feature1-row-container:hover .hi-icon-effect-9a .hi-icon {
+  box-shadow: 0 0 0 5px rgba(255,255,255,1);
+  color: #fff;
+}
+.feature1-row-container:hover .hi-icon-wrap {
+  background-color:#4b4e53;
+  transition:background-color 0.3s ease 0s;
+}
+.feature1-row-container:hover .hi-icon-effect-9 .hi-icon:after {
+  box-shadow: 0 0 0 2px #fff;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}

@@ -1,0 +1,18 @@
+
+/* #SOCIAL SHARE
+================================================== */
+.social-share-container .main-menu-icon{
+  margin:0;
+  background:#dfdfdf;
+  border:none;
+  color:#4b4e53;
+  height: 42px;
+  width: 42px;
+
+  transition:all 0.3s ease 0s;
+}
+.social-share-container .main-menu-icon:hover{
+  border:none;
+  background:$default-theme-color;
+  transition:all 0.3s ease 0s;
+}

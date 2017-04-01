@@ -1,0 +1,68 @@
+/*	#SOCIAL LINKS
+=============================================================*/
+.social-links {
+  position:absolute;
+  left:0;
+  bottom:-1px;
+  margin: 0;
+  padding:0;
+
+}
+.team-img-container {
+  position:relative;
+  overflow: hidden;
+  display:block;
+}
+.team-img-container img {
+  display:block;
+  overflow: hidden;
+  transition:all 0.3s ease 0s;
+}
+.team-img-container:hover img {
+  display:block;
+  overflow: hidden;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition:all 0.3s ease 0s;
+}
+.social-link {
+  display:block;
+  float:left;
+  padding:15px;
+  color:#4b4e53;
+  background-color:$default-theme-color;
+  transition:all 0.3s ease 0s;
+}
+.social-link:hover {
+  color:$default-theme-color;
+  background-color:#4b4e53;
+  transition:all 0.3s ease 0s;
+}
+.team-item-name, .team-item-role {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+}
+.team-item-name {
+  margin-top: 18px;
+  margin-bottom: 5px;
+  font-size:18px;
+  color:#6f6f73;
+}
+.team-item-role {
+  font-size:14px;
+  color:#979ca1;
+}
+.footer-mail-cotainer, .footer-social-cotainer {
+  float:left;
+}
+.footer-mail:hover{
+  color:#fff;
+}
+.footer-mail-cotainer {
+  padding-left: 10px;
+  padding-top: 15px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+}

@@ -1,0 +1,111 @@
+/* #RETINA IMAGES (High Resolution)
+====================================================================== */
+@media (-Webkit-min-device-pixel-ratio: 1.5),
+(-moz-min-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3/2),
+(min-device-pixel-ratio: 1.5),
+(min-resolution: 1.5dppx) {
+
+  .btn-rm-thin-bg-white:after{
+    background-image: url(../images/arrow-rm-white@2x.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 13px auto;
+  }
+  .btn-rm-thin-bg-white:hover:after{
+    background-image: url(../images/arrow-rm@2x.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 13px auto;
+  }
+  .blog-rm:after{
+    background-image: url(../images/arrow-rm@2x.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 13px auto;
+  }
+  .r-m-plus:after {
+    background: url(../images/arrow-rm@2x.png) no-repeat scroll center center ;
+    background-size: 13px auto;
+  }
+  a.r-m-plus-small {
+    background: url(../images/arrow-rm@2x.png) no-repeat scroll center center ;
+    background-size: 13px auto;
+  }
+  a.r-m-plus-small:hover {
+    background-color:#414146 !important;
+    background-image: url(../images/arrow-rm-white@2x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 13px auto;
+  }
+  #back-top a {
+    background-image: url(../images/back-top@2x.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px auto;
+  }
+  #back-top a:hover {
+    background-image: url(../images/back-top-black@2x.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px auto;
+  }
+  .feature2-line {
+    background: url("../images/features2-line@2x.png") center top no-repeat;
+    background-size: 20px auto;
+  }
+  .next-blog, .next-portfolio{
+    background-image: url(../images/next-small-black@2x.png);
+    background-size: 18px auto;
+  }
+  .next-blog:hover, .next-portfolio:hover{
+    background-image: url(../images/next-small-white@2x.png);
+    background-size: 18px auto;
+  }
+  .prev-blog, .prev-portfolio{
+    background-image: url(../images/prev-small-black@2x.png);
+    background-size: 18px auto;
+  }
+  .prev-blog:hover, .prev-portfolio:hover{
+    background-image: url(../images/prev-small-white@2x.png);
+    background-size: 18px auto;
+  }
+  .ui-accordion-header-active span {
+    background-image: url(../images/minus-black@2x.png);
+    background-size: 7px auto;
+  }
+  .ui-accordion-header:hover span{
+    background-image: url(../images/plus-black@2x.png);
+    background-size: 7px auto;
+  }
+  .ui-accordion-header span{
+    background-image: url(../images/plus@2x.png);
+    background-size: 7px auto;
+  }
+  blockquote.custom-blockquote:before {
+    background-image: url(../images/quote2@2x.png);
+    background-size: 28px auto;
+  }
+  .slogan-a-arrow:after {
+    background-image: url(../images/slogan-arrow@2x.png);
+    background-size: 41px auto;
+  }
+  .pagination-1 .pag-prev {
+    background-image: url(../images/prev-extra-small@2x.png);
+    background-size: 10px auto;
+  }
+  .pagination-1 .pag-prev:hover {
+    background-image: url(../images/prev-extra-small-black@2x.png);
+    background-size: 10px auto;
+  }
+  .pagination-1 .pag-next {
+    background-image: url(../images/next-extra-small@2x.png);
+    background-size: 10px auto;
+  }
+  .pagination-1 .pag-next:hover {
+    background-image: url(../images/next-extra-small-black@2x.png);
+    background-size: 10px auto;
+  }
+
+}

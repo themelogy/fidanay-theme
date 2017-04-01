@@ -1,0 +1,166 @@
+/*	#SLOGAN
+==========================================================*/
+.black-bg {
+  background-color:#4b4e53;
+}
+.slogan-text-container {
+  z-index:0;
+}
+.slogan-2-a-container a {
+  display:block;
+
+  height:140px;
+  width:160px;
+}
+.slogan-2-text-container{
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+.slogan-2-text{
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:24px;
+  line-height:32px;
+  color:#fff;
+  margin-bottom: 10px;
+}
+.slogan-2-sec-text{
+  color:#a0a0a0;
+}
+.slogan-2-a-container {
+  position: relative;
+  float: right;
+  background: #fff;
+  color: #707070;
+}
+.sl-icon {
+  position: absolute;
+  top: 30px;
+  left: 38px;
+  z-index:0;
+  opacity:0.07;
+  transition: all 0.4s ease 0s;
+}
+.sl-line-2 {
+  position: absolute;
+  top: 85px;
+  left: 55px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color:#7c7f84;
+  transition: all 0.2s ease 0s;
+}
+.sl-line-1 {
+  position: absolute;
+  top:60px;
+  left:30px;
+  font-size: 24px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  text-transform: uppercase;
+  color: #4b4e53;
+  transition: all 0.3s ease 0s;
+}
+
+.slogan-2-a-container a:hover .sl-icon {
+  opacity:0.18;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.slogan-2-a-container a:hover .sl-line-2, .slogan-2-a-container a:hover .sl-line-1 {
+  opacity: 0;
+  -webkit-transform: translateY(50px) scale(.5);
+  -moz-transform: translateY(50px) scale(.5);
+  -o-transform: translateY(50px) scale(.5);
+  -ms-transform: translateY(50px) scale(.5);
+  transform: translateY(50px) scale(.5);
+}
+.slogan-2-a-container a:hover .sl-line-2 {
+  transition: all 0.3s ease 0s;
+}
+.slogan-2-a-container a:hover .sl-line-1 {
+  transition: all 0.3s ease 0s;
+}
+.slogan-3-a-container {
+  margin-top: 40px;
+  margin-left: 25%;
+}
+.feature-box2 .hovered:hover  .ca-icon{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.3s ease 0s;
+}
+.slogan-text{
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size: 36px;
+  line-height: 40px;
+  color:#4b4e53;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.slogan-text-bg{
+  background-color:#dfdfdf;
+  padding-bottom:50px;
+  padding-top:50px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size: 36px;
+  line-height: 40px;
+  color:#4b4e53;
+}
+.slogan-text-before:before {
+  content: "";
+  display: block;
+  width: 2000px;
+  height: 105px;
+  background: #dfdfdf;
+  position: absolute;
+  top: 0;
+  left: -1985px;
+}
+.slogan-text-icon img {
+  height:41px;
+  width:41px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+.slogan-a-arrow {
+  display: inline-block;
+  position: relative;
+  padding-right: 55px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size: 36px;
+  line-height: 40px;
+}
+.slogan-a-arrow:before, .slogan-a-arrow:after{
+  content:'';
+  position:absolute;
+}
+.slogan-a-arrow:after {
+  right: 0px !important;
+  top: 0px !important;
+  width: 41px;
+  height: 41px;
+  background-image: url(../images/slogan-arrow.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease 0s;
+}
+.slogan-a-arrow:hover:after  {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  background-color:transparent !important;
+
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

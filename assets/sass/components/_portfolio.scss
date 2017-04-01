@@ -1,0 +1,123 @@
+/* #PORTFOLIO
+============================================*/
+ul#portfolio {
+  margin:0;
+  padding:0;
+  list-style:none;
+  transition:none !important;
+}
+.filter-portfolio ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+ul#filters {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+ul#filters li{
+  float:left;
+  margin:0;
+  padding:0;
+}
+ul#filters li a{
+  padding:15px;
+  padding-right:20px;
+  padding-left:20px;
+  margin: 0;
+  color:#4b4e53;
+  font-size:13px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  line-height:18px;
+  font-weight:normal;
+  display:block;
+}
+ul#filters li a:hover{
+  color: #fff ;
+  background-color: #4b4e53;
+}
+ul#filters li a.selected{
+  position: relative;
+  background-color: #dfdfdf;
+  color: #4b4e53;
+}
+.title-block-text {
+  color: #4b4e53;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-size: 30px;
+  line-height: 42px;
+  padding-bottom: 30px;
+}
+
+/*****	#START: RECOMMENDED ISOTOPE STYLES	*****/
+
+/**** Isotope Filtering ****/
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property:    -moz-transform, opacity;
+  -ms-transition-property:     -ms-transform, opacity;
+  -o-transition-property:      -o-transform, opacity;
+  transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+/*****	#PORTFOLIO SINGLE	*****/
+.project-details-list li{
+  height:28px;
+}
+.portfolio-item-caption-container {
+  position:absolute;
+  bottom:0px;
+  background-color:#fff;
+  z-index:5;
+}
+.item .portfolio-item-caption-container {
+  bottom:30px;
+}
+.portfolio-item-caption-container a {
+  padding: 20px 20px 0px 0;
+  color:#6f6f73;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size: 20px;
+  display:block;
+}
+.portfolio-full-width .portfolio-item-caption-container a {
+  padding: 20px;
+}

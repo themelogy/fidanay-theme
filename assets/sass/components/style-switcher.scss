@@ -1,0 +1,162 @@
+/************************************************************
+*	#STYLE SWITCHER CSS
+*
+************************************************************/
+.normal-page .normal-page-act {
+  background-color: $default-theme-color !important;
+}
+.one-page .one-page-act {
+  background-color: $default-theme-color !important;
+}
+.s-s-icon {
+  height: 26px;
+  padding-left: 1px;
+  padding-top: 1px;
+  width: 26px;
+}
+.switcher h3 {
+  font-size:14px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  color:#fff;
+  text-transform: uppercase;
+}
+.switcher {
+  background: #5A5A5A;
+  width:159px;
+  position:fixed;
+  top:150px;
+  z-index:9999;
+  left:0px;
+}
+.switcher h2 {
+  background: #404040;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 5px 0 6px 15px;
+  margin-bottom:0;
+  margin-top:0;
+  line-height: 40px;
+  height: 50px;
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+}
+.switcher h2 a {
+  background: #4b4c4d;
+  display: block;
+  height: 50px;
+  position: absolute;
+  right: -50px;
+  top: 0;
+  width: 50px;
+  text-align:center;
+  color:#fff;
+  padding: 13px 0;
+  padding-bottom:0;
+  background-color: #404040;
+  font-size:24px;
+  line-height:24px;
+}
+.switcher .content2 {
+  padding:0px 16px 16px 16px;
+  overflow:hidden;
+}
+.layout-switcher {
+  margin:0;
+  overflow:hidden;
+}
+.layout-switcher a.layout {
+  padding:8px;
+  color: #414146;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  display: block;
+  margin: 0 6px 0 0;
+  text-align: center;
+  background: #fff;
+  font-size:12px !important;
+}
+#reset {
+  margin-top:5px;
+  font-size:12px !important;
+}
+.layout-switcher a.layout:hover {
+  background: $default-theme-color;
+}
+.layout-switcher a.layout.current {
+  cursor: default;
+  background: $default-theme-color;
+}
+#boxed {
+  margin:0;
+}
+.switcher-box {
+  height:auto;
+  overflow:hidden;
+  margin-bottom:6px;
+}
+.styleswitch {
+  width: 18px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+  margin: 0;
+  float:left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.styleswitch.current {
+  border: 2px solid $default-theme-color;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.styleswitch#yellow    { background-color:$default-theme-color; }
+.styleswitch#cyan    { background-color:#4cc1d3; }
+.styleswitch#blue    { background-color:#37a2d6; }
+.styleswitch#lime    { background-color:#cddc39; }
+.styleswitch#green { background-color:#259b24; }
+.styleswitch#deeporange  { background-color:#ff5722; }
+.styleswitch#teal   { background-color:#1bbc9b; }
+.bg {
+  height:auto;
+  overflow:hidden;
+  margin-bottom:6px;
+}
+.pattern {
+  width: 21px;
+  height: 24px;
+  display: block;
+  cursor: pointer;
+  margin: 0 4px 4px 0;
+  float:left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.pattern.current {
+  border: 2px solid $default-theme-color;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.pattern#bg-1 { background-color: #EFEFEF; }
+.pattern#bg-2 { background-color: #565A60; }
+.pattern#bg-3 { background-color: #272B2A; }
+.pattern#bg-4 { background: url(../images/bg/bg-body.jpg) no-repeat;}
+.pattern#bg-5 { background:url(../images/bg/shattered.png) no-repeat; }
+.pattern#bg-6 { background:url(../images/bg/satinweave.png) no-repeat; }
+.pattern#bg-7 { background:url(../images/bg/extra_clean_paper.png) no-repeat; }
+.pattern#bg-8 { background:url(../images/bg/prev-bg_img04.jpg) no-repeat; }
+.pattern#bg-9 { background:url(../images/bg/prev-bg_img03.jpg) no-repeat; }
+.pattern#bg-10 { background:url(../images/bg/prev-bg_img02.jpg) no-repeat; }
+a.dark-style {
+  display:block;
+  padding:9px 0 11px 0;
+  text-align:center;
+  background:#b8bcc1;
+  color:#414146;
+  cursor:pointer;
+}
+a.dark-style:hover {
+  color:#414146;
+  background:$default-theme-color;
+}
+/*	#STYLE SWITCHER END	*************************************************/

@@ -1,0 +1,111 @@
+/* #COMMENTS
+================================================== */
+.post-author .panel {
+  border-radius:0;
+}
+.comment-container {
+
+}
+.post-author .panel-heading {
+  border-radius:0;
+}
+.post-author .panel-heading {
+  color: #7e8082;
+}
+.author-image {
+  float: left;
+  width: 84px;
+  height: 84px;
+  margin-right: 15px;
+}
+
+.comment-list {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.comment-children{
+  list-style: none;
+}
+.comment-container {
+  position: relative;
+  padding: 25px 20px 12px 50px;
+  margin-left: 44px;
+  margin-bottom: 30px;
+  background: #eee;
+}
+.post-author-container {
+  position: relative;
+  padding: 25px 20px 12px 115px;
+  margin-bottom: 30px;
+  background: #eee;
+  min-height:130px;
+}
+.comment-author-avatar {
+  position: absolute;
+  top: 15px;
+  left: -44px;
+  padding: 4px;
+  padding-left:0;
+  background: #FFF;
+}
+.post-author-avatar {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 4px;
+  background: #FFF;
+}
+.by-post-author .comment-author-avatar {
+  padding: 4px;
+  background: $default-theme-color;
+}
+.comment-author-badge{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: $default-theme-color;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  padding: 4px 6px 4px 6px;
+  font-size: 12px;
+}
+.comment-content {
+  padding: 0 0 0 15px;
+}
+.comment-reply-link {
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 18px;
+}
+.comment-reply-link.a-invert{
+  color:#7e8082;
+}
+.comment-author-avatar img {
+  height:86px;
+  width:86px;
+}
+.comment-author-name {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight: 300;
+  font-size:17px;
+  color:#7e8082;
+}
+.comment-author-name a{
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight: normal;
+  font-size:17px;
+  color:#7e8082;
+}
+.comment-author .comment-date {
+  font-size: 12px;
+  margin-bottom:10px;
+}
+.no-after:after {
+  display:none !important;
+}
+.no-before:before {
+  display:none !important;
+}

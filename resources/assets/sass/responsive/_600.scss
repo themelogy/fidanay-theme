@@ -1,0 +1,22 @@
+/******************************************************************************
+  Max Width "600px"
+*******************************************************************************/
+@media (max-width: 600px) {
+  .header .menu-btn-respons-container .btn-navbar.collapsed:before {
+    display: none;
+  }
+  /*	#TESTIMONIALS ====================================*/
+  .ts-text-container {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+  }
+  .t-a-container {
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  .ts-img-container {
+    display:none;
+  }
+}

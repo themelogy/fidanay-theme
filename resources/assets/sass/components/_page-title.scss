@@ -1,0 +1,26 @@
+/* #PAGE TITLE
+================================================== */
+.page-title-bg {
+  background:rgba(255, 234, 0, .5);
+}
+.page-title-container {
+  background:$default-theme-color;
+}
+.page-title-container h2{
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:100;
+  font-size:28px;
+  line-height:36px;
+  color:#4b4e53;
+  margin: 50px 10px 0 40px;
+  transition:margin .3s ease;
+}
+.page-title-container .breadcrumb {
+  font-family: 'Oswald',Arial,Helvetica,sans-serif;
+  font-weight:300;
+  font-size:14px;
+  color:#4b4e53;
+  background:#fff;
+  padding:15px;
+  float:right;
+}

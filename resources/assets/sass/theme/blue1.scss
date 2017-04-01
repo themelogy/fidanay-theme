@@ -1,0 +1,13 @@
+@import "../settings";
+
+$theme-name: blue1;
+
+$general-link-color: #deae2e !default;
+$general-link-hover-color: #deae2e !default;
+
+$theme-color: map_get($theme-colors, 'blue1');
+$theme-text-color: #fff;
+
+$theme-social-text-color: #fff;
+
+@import "color-light";
