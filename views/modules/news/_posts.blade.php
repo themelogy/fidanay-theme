@@ -16,7 +16,7 @@
             <div class="blog-caption-container">
                 <h2><a class="a-invert" href="{{ $post->url }}">{{ $post->title }}</a></h2>
                 <ul class="post-meta clearfix">
-                    <li><span aria-hidden="true" class="icon_clock_alt"></span> {{ $post->created_at->formatLocalized('d F Y') }}</li>
+                    <li><span aria-hidden="true" class="icon_clock_alt"></span> {{ $post->created_at->formatLocalized('%d %B %Y') }}</li>
                     <li><span aria-hidden="true" class="icon_folder-alt"></span> <a href="{{ $post->category->url }}">{{ $post->category->name }}</a></li>
                     <li><span aria-hidden="true" class="icon_profile"></span><a href="#">{{ $post->author->fullname }}</a></li>
                     @if($post->tags()->exists())

@@ -65,7 +65,7 @@
                                     </div>
                                     <div class="post-text-footer">
                                         <h4 class="title-post-footer">{{ $newsLatest->title }}</h4>
-                                        <h4 class="date-post-footer">{{ $newsLatest->created_at->formatLocalized('d F Y') }}</h4>
+                                        <h4 class="date-post-footer">{{ $newsLatest->created_at->formatLocalized('%d %B %Y') }}</h4>
                                     </div>
                                 </a>
                             </li>
@@ -97,7 +97,7 @@
                                     <span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
                                 </div>
                                 <div class="contact-text-container">
-                                    <a class="a-mail" href="mailto:{!! Html::email(setting('theme::email')) !!}">{!! Html::email(setting('theme::email')) !!}</a>
+                                    <a class="a-mail" href="mailto:{!! HTML::email(setting('theme::email')) !!}">{!! HTML::email(setting('theme::email')) !!}</a>
                                 </div>
                             </li>
                         </ul>
@@ -115,7 +115,7 @@
                 <div class="col-md-8">
                     <div class="footer-menu-container">
                         <nav class="clearfix" id="footer-nav">
-                            {!! Menu::render('footer', Modules\Theme\Presenters\Fidanay\FooterMenuPresenter::class) !!}
+                            {!! Menu::render('footer', \Themes\Fidanay\Presenter\FooterMenuPresenter::class) !!}
                         </nav>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="footer-copyright-container">
                         <div class="mask-footer-copyright-container"></div>
                         <div class="footer-copyright-text">
-                            {!! Carbon::today()->formatLocalized('Y') !!} © {{ trans('themes::theme.copyrights') }} - <a class="author" href="{!! url(locale()) !!}">{!! setting('theme::company-name') !!}</a>
+                            {!! Carbon::today()->formatLocalized('%Y') !!} © {{ trans('themes::theme.copyrights') }} - <a class="author" href="{!! url(locale()) !!}">{!! setting('theme::company-name') !!}</a>
                         </div>
 
                     </div>

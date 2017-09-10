@@ -49,7 +49,7 @@
         <!-- END: INLINE NAV -->
         <!-- BEGIN: INLINE NAV -->
         <nav class="c-top-menu c-pull-right">
-            {!! Menu::render('topbar', Modules\Theme\Presenters\Fidanay\TopMenuPresenter::class) !!}
+            {!! Menu::render('topbar', \Themes\Fidanay\Presenter\TopMenuPresenter::class) !!}
             <ul class="c-ext c-theme-ul">
                 <li class="c-lang dropdown c-last">
                     <a href="#">{{ LaravelLocalization::getCurrentLocale() }}</a>

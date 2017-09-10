@@ -35,7 +35,7 @@
                         </div>
                         <div class="lp-title-cont left col-md-7">
                             <p class="latest-post-sidebar-title"><a class="a-invert" href="{{ $popular->url }}">{{ $popular->title }}</a></p>
-                            <p class="latest-post-sidebar-date">{{ $popular->created_at->formatLocalized('d F Y') }}</p>
+                            <p class="latest-post-sidebar-date">{{ $popular->created_at->formatLocalized('%d %B %Y') }}</p>
                         </div>
                     </li>
                     @endforeach
@@ -50,7 +50,7 @@
                             </div>
                             <div class="lp-title-cont col-md-7 left">
                                 <p class="latest-post-sidebar-title"><a class="a-invert" href="{{ $latest->url }}">{{ $latest->title }}</a></p>
-                                <p class="latest-post-sidebar-date">{{ $latest->created_at->formatLocalized('d F Y') }}</p>
+                                <p class="latest-post-sidebar-date">{{ $latest->created_at->formatLocalized('%d %B %Y') }}</p>
                             </div>
                         </li>
                     @endforeach

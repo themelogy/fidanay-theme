@@ -27,7 +27,7 @@
                 <div class="blog-caption-container">
                     <h2><a class="a-invert" href="{{ $post->url }}">{{ $post->title }}</a></h2>
                     <ul class="post-meta clearfix">
-                        <li><span aria-hidden="true" class="icon_clock_alt"></span> {{ $post->created_at->formatLocalized('d F Y') }}</li>
+                        <li><span aria-hidden="true" class="icon_clock_alt"></span> {{ $post->created_at->formatLocalized('%d %B %Y') }}</li>
                         @if($post->category)
                         <li><span aria-hidden="true" class="icon_folder-alt"></span> <a href="{{ $post->category->url }}">{{ $post->category->name }}</a></li>
                         @endif
@@ -78,8 +78,8 @@
                             @endpush
                         @else
                             <div class="view view-first hovered pull-right m-lft-20 m-bot-20">
-                                <a href="{{ $post->present()->firstImage(650,650,'resize',80) }}" class="lightbox">
-                                    <img class="img-thumbnail" src="{{ $post->present()->firstImage(500,250,'resize',80) }}" alt="{{ $post->title }}">
+                                <a href="{{ $post->present()->firstImage(650,null,'resize',80) }}" class="lightbox">
+                                    <img class="img-thumbnail" src="{{ $post->present()->firstImage(500,null,'resize',80) }}" alt="{{ $post->title }}">
                                     <div class="mask">
                                         <div class="zoom info"><span aria-hidden="true" class="icon_search"></span></div>
                                     </div>
@@ -91,7 +91,7 @@
                 </div>
 
             </div>
-            <div class="col-md-12">
+            <div class="col-md-6">
                 @if($previous = $post->present()->previous)
                 <a class="button medium thin hover-dark"
                    href="{{ $previous->url }}">{{ trans('blog::post.button.previous') }}</a>
@@ -101,6 +101,9 @@
                    href="{{ $next->url }}">{{ trans('blog::post.button.next') }}</a>
                 @endif
             </div>
+			<div class="col-md-6">
+			@include('partials.social', ['url'=>$post->url])
+			</div>
         </div>
 
     </div>

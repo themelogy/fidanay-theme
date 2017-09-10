@@ -71,7 +71,7 @@
                         <ul class="list-unstyled m-bot-30">
                             <li class="m-bot-10"><span aria-hidden="true" class="icon_phone theme-color m-r-5"></span> {{ $employee->phone }}</li>
                             <li class="m-bot-10"><i class="fa fa-fax theme-color m-r-5"></i> {{ $employee->fax }}</li>
-                            <li class="m-bot-10"><span aria-hidden="true" class="icon_mail_alt theme-color m-r-5"></span> {{ Html::email($employee->email) }}
+                            <li class="m-bot-10"><span aria-hidden="true" class="icon_mail_alt theme-color m-r-5"></span> {{ HTML::email($employee->email) }}
                             </li>
                         </ul>
 

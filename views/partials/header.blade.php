@@ -34,7 +34,7 @@
                         <!-- MAIN MENU LIST-->
                         <nav class="collapse collapsing navbar-collapse right">
 
-                            {!! Menu::render('header', Modules\Theme\Presenters\Fidanay\HeaderMenuPresenter::class) !!}
+                            {!! Menu::render('header', \Themes\Fidanay\Presenter\HeaderMenuPresenter::class) !!}
 
                             <!-- SEARCH READ DOCUMENTATION -->
                             <div id="sb-search" class="search sb-search right hide-respons">

@@ -11,6 +11,7 @@ return [
     'copyrights'      => 'Tüm hakları saklıdır.',
     'buttons'         => [
         'read more' => 'Devamını Oku',
-        'view all'  => 'TÜMÜ'
+        'view all'  => 'TÜMÜ',
+        'share'     => 'PAYLAŞ'
     ]
 ];

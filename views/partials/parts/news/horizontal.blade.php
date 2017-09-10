@@ -20,17 +20,17 @@
         </div>
         <div class="row box-with-hover">
             <div id="owl-blog" class="owl-carousel">
-            @foreach(News::latest(10) as $post)
+            @foreach(News::latest(10) as $news)
                 <!-- Item -->
                 <div class="item">
                     <div class="view view-first blog-hover hovered">
-                        <a href="{{ $post->present()->firstImage(800,600,'resize',80) }}" class="lightbox">
-                            @if($file = $post->present()->firstImage(263,157,'fit',80))
+                        <a href="{{ $news->present()->firstImage(800,null,'resize',80) }}" class="lightbox">
+                            @if($file = $news->present()->firstImage(263,157,'fit',80))
                             <img src="{{ $file }}" alt="Ipsum">
                             @endif
                             <div class="blog-item-date-cont">
-                                <div class="blog-item-date">{{ $post->created_at->formatLocalized('d') }}</div>
-                                <div class="blog-item-mounth uppercase">{{ $post->created_at->formatLocalized('M') }}</div>
+                                <div class="blog-item-date">{{ $news->created_at->formatLocalized('%d') }}</div>
+                                <div class="blog-item-mounth uppercase">{{ $news->created_at->formatLocalized('%B') }}</div>
                             </div>
                             <div class="mask">
                                 <div class="zoom info"><span aria-hidden="true" class="icon_search"></span></div>
@@ -38,13 +38,13 @@
                         </a>
                     </div>
                     <div class="blog-carousel-caption-container">
-                        <a class="a-invert" href="{{ $post->url }}">{{ $post->title }}</a>
+                        <a class="a-invert" href="{{ $news->url }}">{{ $news->title }}</a>
                     </div>
                     <div class="blog-carousel-text-container">
-                        {!! \Str::words(strip_tags($post->intro), 10) !!}
+                        {!! \Str::words(strip_tags($news->intro), 10) !!}
                     </div>
                     <div class="blog-carousel-button-container">
-                        <a class="button small gray-lite" href="{{ $post->url }}">{!! trans('themes::theme.buttons.read more') !!}</a>
+                        <a class="button small gray-lite" href="{{ $news->url }}">{!! trans('themes::theme.buttons.read more') !!}</a>
                     </div>
                 </div>
             @endforeach

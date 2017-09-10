@@ -11,6 +11,7 @@ return [
     'copyrights'      => 'All rights reserved.',
     'buttons'         => [
         'read more' => 'Read More',
-        'view all'  => 'ALL'
+        'view all'  => 'ALL',
+        'share'     => 'SHARE'
     ]
 ];

@@ -60,7 +60,7 @@
                                 <span aria-hidden="true" class="icon_mail_alt contact-info-icon"></span>
                             </div>
                             <h2 class="title-20">{{ trans('themes::contact.email') }}</h2>
-                            <div class="contact-info-text"><a class=" a-invert" href="mailto:{!! Html::email(setting('theme::email')) !!}">{!! Html::email(setting('theme::email')) !!}</a></div>
+                            <div class="contact-info-text"><a class=" a-invert" href="mailto:{!! HTML::email(setting('theme::email')) !!}">{!! HTML::email(setting('theme::email')) !!}</a></div>
                         </div>
                     </div>
                 </div>

@@ -51,7 +51,7 @@
             </div>
             <div class="col-md-8">
                 <div class="form-group pull-right @if ($errors->has('g-recaptcha-response')) has-error @endif">
-                    {!! Captcha::display() !!}
+                    {!! Captcha::image() !!}
                     <span class="help-block">{!! $errors->first('g-recaptcha-response') !!}</span>
                 </div>
             </div>
@@ -63,6 +63,6 @@
 </div>
 
 @push('js_inline')
-{!! Captcha::script() !!}
+{!! Captcha::setLang(locale())->script() !!}
 @endpush
 
