@@ -1,4 +1,5 @@
-<?php namespace Modules\Themes\Fidanay\Presenter;
+<?php
+namespace Themes\Fidanay\Presenter;
 
 use Nwidart\Menus\Presenters\Presenter;
 

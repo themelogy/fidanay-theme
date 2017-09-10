@@ -1,4 +1,5 @@
-<?php namespace Modules\Themes\Fidanay\Presenter;
+<?php
+namespace Themes\Fidanay\Presenter;
 
 use Nwidart\Menus\Presenters\Presenter;
 
@@ -102,8 +103,8 @@ class HeaderMenuPresenter extends Presenter
     {
         return '<li class="parent '.$this->getActiveStateOnChild($item, ' current').'">
 		          <a href="'.$item->getUrl().'" class="c-link dropdown-toggle">
-					'.$item->getIcon().' '.$item->title.
-					'<span aria-hidden="true" class="'.$item->getIcon('', false).' main-menu-icon theme-color"></span>
+				    '.$item->title.
+        '<span aria-hidden="true" class="'.$item->getIcon('', false).' main-menu-icon theme-color"></span>
 			      </a>
 			      <ul class="sub">
 			      	'.$this->getChildMenuItems($item).'
