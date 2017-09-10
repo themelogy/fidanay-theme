@@ -1,5 +1,6 @@
 {
   "name": "themelogy/fidanay-theme",
+  "type": "asgard-theme",
   "description": "",
   "license": "MIT",
   "require": {
