@@ -1,0 +1,74 @@
+.section-courses {
+  .course-category {
+    li {
+      a {
+        background-color: lighten($default-theme-color, 40%);
+        color: $default-theme-color;
+        padding: 5px 10px;
+      }
+    }
+  }
+  .course {
+    border: 1px solid lighten($default-theme-color, 40%);
+    background-color: lighten($default-theme-color, 45%);
+    position: relative;
+    .info {
+      padding: 20px;
+      .title {
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 20px;
+        letter-spacing: -0.01em;
+        color: $default-theme-color;
+        span {
+          position: absolute;
+          font-size: 16px;
+          padding: 10px;
+          right: 19px;
+          top: 5px;
+          line-height: 14px;
+          background-color: lighten($default-theme-color, 40%);
+          color: $default-theme-color;
+        }
+      }
+      .meta1 {
+        ul {
+          li {
+            margin-bottom: 5px;
+            span {
+              display: inline-block;
+              width: 100px;
+              float: left;
+              font-weight: bold;
+              font-family: $default-font;
+            }
+          }
+        }
+      }
+      .meta2 {
+        margin-top: 10px;
+        ul {
+          li {
+            text-align: center;
+            padding: 6px 18px;
+            background-color: lighten($default-theme-color, 40%);
+            color: $default-theme-color;
+            font-weight: bold;
+            margin-right: 5px;
+            span {
+              display: list-item;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+      .meta1, .meta2 {
+        ul {
+          list-style-type: none;
+          padding: 0;
+          font-family: $default-font;
+        }
+      }
+    }
+  }
+}
