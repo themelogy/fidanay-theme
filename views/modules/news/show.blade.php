@@ -44,7 +44,7 @@
                     @if($post->files()->exists())
                         @if($post->files()->count()>1)
                             <div id="owl-1-pag" class="owl-carousel" >
-                                @foreach($post->present()->images(850,null,'resize',80) as $image)
+                                @foreach($post->present()->images(null,560,'resize',80) as $image)
                                     <div class="item">
                                         <div style="position: relative;">
                                             <img alt="{{ $post->title }}" src="{{ $image }}" style="max-width: 100%; max-height: 100%; margin: auto auto; display: block;">

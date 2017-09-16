@@ -3,7 +3,7 @@
 		@if($post->files()->exists())
         <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="view view-first hovered pull-left">
-                <a href="{{ $post->present()->firstImage(650,650,'resize',80) }}" class="lightbox">
+                <a href="{{ $post->present()->firstImage(null,650,'resize',80) }}" class="lightbox">
                     <img src="{{ $post->present()->firstImage(300,300,'fit',80) }}" alt="{{ $post->title }}">
                     <div class="mask">
                         <div class="zoom info"><span aria-hidden="true" class="icon_search"></span></div>

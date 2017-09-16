@@ -2,10 +2,10 @@
     <div class="course">
         <div class="row">
             <div class="col-md-5 image">
-                <img src="{{ $course->present()->firstImage(400,600,"fit",80) }}" alt="{{ $course->title }}" />
+               <a href="{{ $course->present()->url }}"><img src="{{ $course->present()->firstImage(400,600,"fit",80) }}" alt="{{ $course->title }}" /></a>
             </div>
             <div class="col-md-7 info">
-                <h3 class="title">{{ $course->title }} <span class="price">{{ $course->price }} TL</span></h3>
+                <h3 class="title"><a href="{{ $course->present()->url }}">{{ $course->title }}</a> <span class="price">{{ $course->price }} TL</span></h3>
 
                 <div class="meta1">
                     <ul>
