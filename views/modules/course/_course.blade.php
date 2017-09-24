@@ -1,4 +1,4 @@
-<div class="col-md-6">
+<div class="col-md-6 m-bot-20">
     <div class="course">
         <div class="row">
             <div class="col-md-5 image">
