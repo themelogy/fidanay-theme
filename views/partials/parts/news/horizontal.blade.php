@@ -24,8 +24,8 @@
                 <!-- Item -->
                 <div class="item">
                     <div class="view view-first blog-hover hovered">
-                        <a href="{{ $news->present()->firstImage(800,null,'resize',80) }}" class="lightbox">
-                            @if($file = $news->present()->firstImage(263,157,'fit',80))
+                        <a href="{{ $news->present()->firstImage(800,null,'resize',50) }}" class="lightbox">
+                            @if($file = $news->present()->firstImage(263,157,'fit',50))
                             <img src="{{ $file }}" alt="Ipsum">
                             @endif
                             <div class="blog-item-date-cont">

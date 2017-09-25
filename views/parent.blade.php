@@ -23,12 +23,12 @@
     <div class="container">
         <div class="row m-bot-20">
             <div class="col-md-12">
-                @if($page->children()->exists())
+                @if(count($page->children)>0)
                     <div class="row">
-                        @foreach($page->children()->orderBy('position','asc')->get() as $child)
+                        @foreach(collect($page->children)->sortBy('position') as $child)
                             <div class="col-sm-6 col-md-4">
                                 <div class="child-page thumbnail">
-                                    <img class="rounded" src="{{ $child->present()->firstImage(356,150,"fit",80) }}" />
+                                    <img class="rounded" src="{{ $child->present()->firstImage(356,150,"fit",50) }}" />
                                     <div class="caption">
                                         <h4 class="title"><a href="{{ $child->url }}">{{ $child->title }}</a></h4>
                                         <p>{{ $child->sub_title }}</p>
